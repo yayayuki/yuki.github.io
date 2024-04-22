@@ -1,0 +1,33 @@
+/* universal selector */
+* {
+  color: blue;
+}
+
+p {
+  background-color: darkturquoise;
+}
+
+.happy {
+  background-color: tomato;
+}
+
+#mymood {
+  background-color: blue;
+  color: white;
+}
+
+.header h1 {
+  color: red;
+}
+
+h1 {
+  color: orange;
+}
+
+/* .nav-links li {
+  background-color: pink;
+} */
+
+ul li {
+  background-color: yellow;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1>HTML FORMS</h1>
+
+    <form action="#">
+      <label for="full-name">Full Name:</label>
+      <input
+        type="text"
+        name="full-name"
+        id="full-name"
+        required
+        placeholder="Cruz, Ryan"
+      />
+      <label for="add">Address:</label>
+      <input type="text" name="add" id="add" />
+      <label for="pass">Password:</label>
+      <input type="password" name="pass" id="pass" />
+      <input type="submit" value="Submit" />
+      <label for="comment">Comment</label>
+      <br />
+      <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+      <br />
+
+      <!-- CheckBox -->
+      <label for="interest">Interest</label><br />
+      <label for="interest-books">
+        <input
+          type="checkbox"
+          id="interest-books"
+          name="interest"
+          value="books"
+        />Books
+      </label>
+      <label for="interest-music">
+        <input
+          type="checkbox"
+          id="interest-music"
+          name="interest[]"
+          value="music"
+        />Music
+      </label>
+      <label for="interest-movies">
+        <input
+          type="checkbox"
+          id="interest-movies"
+          name="interest[]"
+          value="movies"
+        />Movies
+      </label>
+      <br />
+
+      <!-- Drop Down -->
+      <label for="device">What is your device?</label>
+      <select name="device" id="device">
+        <option value="mackbook">Macbook</option>
+        <option value="ipad">iPad</option>
+        <option value="iPhone">iPhone</option>
+      </select>
+      <br />
+
+      <!-- Multiple Selectiom -->
+      <label for="car">Select a car</label>
+      <select name="car" id="car" multiple>
+        <option value="toyota">Toyota</option>
+        <option value="nissan">Nissan</option>
+        <option value="honda">Honda</option>
+      </select>
+      <br />
+
+      <!-- File Input Box -->
+      <input type="file" name="file" />
+      <br />
+
+      <!-- Submit Button -->
+      <input type="submit" name="submit" valie="Submit" />
+      <button type="submit" name="submit">Send</button>
+      <br />
+    </form>
+  </body>
+</html>

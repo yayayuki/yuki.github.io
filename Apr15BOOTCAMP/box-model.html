@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS BOX MODEL</title>
+    <style>
+      div {
+        border: 3px solid black;
+        border-width: 5px;
+        border-color: fuchsia;
+        height: 50%;
+        width: 50%;
+        margin: 50px 30px;
+        padding: 10px;
+        box-shadow: 5px 10px 8px greenyellow;
+      }
+
+      p.solid {
+        border-style: solid;
+      }
+
+      p.dotted {
+        border-style: dotted;
+      }
+
+      p.double {
+        border: 3px;
+        border-style: double;
+      }
+
+      p.radius {
+        border: 3px solid black;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="images/bostonterrier2.jpeg" alt="" />
+    </div>
+    <p class="solid">Solid</p>
+    <p class="dotted">Solid</p>
+    <p class="double">Solid</p>
+    <p class="radius">Radius Border</p>
+
+    <div>
+      <p>The Great Gatsby</p>
+    </div>
+  </body>
+</html>

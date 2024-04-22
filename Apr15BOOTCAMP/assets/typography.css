@@ -1,0 +1,87 @@
+p {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+
+.font-style {
+  font-style: oblique;
+}
+
+/* text-transform */
+.uppercase {
+  color: pink;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.lowercase {
+  color: purple;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: lowercase;
+}
+
+.capitalize {
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+}
+
+/* text-decoration */
+
+.overline {
+  color: yellow;
+  background-color: blue;
+  text-decoration: overline;
+}
+
+.line-through {
+  color: red;
+  text-decoration: line-through;
+}
+
+.underline {
+  color: green;
+  text-decoration: underline double;
+}
+
+/* text-align */
+
+.left {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+}
+
+.right {
+  color: tomato;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  word-spacing: 15px;
+}
+
+/* text-shadow */
+.title {
+  color: blue;
+  text-shadow: 2px 2px 3px yellow;
+  letter-spacing: 20px;
+}
+
+/* text-indent */
+.px {
+  text-indent: 50px;
+}
+
+.percent {
+  text-indent: 5%;
+}
+
+.em {
+  text-indent: 5em;
+}

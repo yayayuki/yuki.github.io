@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Activity 4</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="6">Please fill this survey form</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr></tr>
+        <tr>
+          <td>
+            <label for="first-name">First Name:</label>
+          </td>
+          <td>
+            <input type="text" name="first-name" id="first-name" />
+          </td>
+          <td>
+            <label for="mi">MI:</label>
+          </td>
+          <td>
+            <input type="text" name="mi" id="mi" />
+          </td>
+          <td>
+            <label for="last-name">Last Name:</label>
+          </td>
+          <td>
+            <input type="text" name="last-name" id="last-name" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="city">City:</label>
+          </td>
+          <td>
+            <input type="text" name="city" id="city" />
+          </td>
+          <td>
+            <label for="state">State:</label>
+          </td>
+          <td>
+            <input type="text" name="state" id="state" />
+          </td>
+          <td>
+            <label for="xip-code">Zip Code:</label>
+          </td>
+          <td>
+            <input type="number" name="zip-code" id="zip-code" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <span>Choose a Sport:</span><br />
+    <input type="checkbox" name="sport[]" id="sport-basketball" />
+    <label for="sport-basketball">Basketball</label>
+
+    <input type="checkbox" name="sport[]" id="sport-football" />
+    <label for="sport-football">Football</label>
+
+    <input type="checkbox" name="sport[]" id="sport-hokey" />
+    <label for="sport-hockey">Hockey</label>
+
+    <br />
+    <span>Choose a Year:</span><br />
+    <input type="radio" name="year[]" id="year-freshman" />
+    <label for="year-freshman">Freshman</label>
+
+    <input type="radio" name="year[]" id="year-sophomore" />
+    <label for="year-sophomore">Sophomore</label>
+
+    <input type="radio" name="year[]" id="year-junior" />
+    <label for="year-junior">Junior</label>
+
+    <input type="radio" name="year[]" id="year-senior" />
+    <label for="year-senior">Senior</label>
+
+    <br />
+    <span>Choose Your Favorite Food:</span><br />
+    <select name="food" id="food" multiple>
+      <option value="chips">Chips</option>
+      <option value="pizza">Pizza</option>
+      <option value="nachos">Nachos</option>
+    </select>
+    <br />
+    <textarea
+      name="comments"
+      id="comments"
+      cols="30"
+      rows="5"
+      placeholder="Please let us know your comments"
+    ></textarea>
+    <br />
+    <input type="submit" name="submit" value="Send it" />
+    <input type="reset" name="clear" value="Clear it" />
+  </body>
+</html>

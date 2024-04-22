@@ -1,0 +1,20 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.empty th,
+td {
+  border: 1px solid black;
+  empty-cells: hide;
+}
+
+.collapse {
+  border-collapse: collapse;
+}
+
+.separate {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
